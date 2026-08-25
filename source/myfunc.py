@@ -8,3 +8,4 @@ def rollingAvg(arr, n):
         window_sum = sum(arr[i:i+n])
         res.append(window_sum / n)
     return res
+
